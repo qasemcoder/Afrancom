@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header id="hrader">
+        <p>تقديم شكوى</p>
+    </header>
+    <caption>
+
+        <div class="cont" id="cont">
+            <input type="text" name="" id="name" class="name" oninput="checkUsernameReqEx()" placeholder="الاسم"><br>
+            <input type="tel" name="" id="phone" class="phone" placeholder="الهاتف" oninput="CheckPhoneByRegExp()">
+            <input type="email" name="" id="email" class="email" placeholder="الايميل" oninput="valdEmailUserReqexp()"><br>
+            <input type="text" name="" id="case" class="case" placeholder="رقم المفوضية " oninput="valdCaseUserNumberReqexp()"><br>
+            <input type="text" name="" id="title" class="title" placeholder="العنوان"><br>
+            <div id="Selector">
+                <span id="span1">اختر اسم المنظمة</span> <select name="">
+                    <option value="Blumont">Blumont</option>
+                    <option value="Acted">Acted</option>
+                    <option value="Oxfam">Oxfam</option>
+                    <option value="gama">gama</option>
+                    <option value="makani">مكاني</option>
+                    <option value="unicef">Unicef</option>
+                    <option value="public">عامة</option>
+                </select>
+            </div><br>
+            <textarea name="" id="subj" placeholder="محتوى الشكوى" cols="30" rows="10"></textarea>
+            <br>
+            <div id="Selector1"></span><input type="file" name="" id="img"
+                    accept="image/*"><button id="btnAdd">اضافة صور</button>
+            </div>
+            <br>
+            <button type="button" name="" id="but" class="btn btn-1">ارسال</button>
+        </div>
+
+    </caption>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

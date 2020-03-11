@@ -1,0 +1,27 @@
+'${name}', '${phone}', '${email}', '${case_number}', '${subject}', '${admin_id}, '${text}', '${imgpath}'
+
+
+
+
+
+
+ let sql = `INSERT INTO data.data (name,phone,email,case_number,subject,admin_id,text,pic) VALUES ();`
+
+
+
+  <!-- <script>
+        let file = document.getElementById("img")
+
+
+        file.addEventListener("change", e => {
+
+            let FR = new FileReader();
+
+            FR.onload = (e) => {
+                e.target.src = FR.result
+                console.log(FR.result)
+
+            }
+            FR.readAsDataURL(e.target.files[0])
+        })
+    </script> -->
