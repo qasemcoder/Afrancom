@@ -1,0 +1,15 @@
+{
+    "database":{
+    "host":"localhost",
+    "database_name":"afrancom2222",
+    "user":"root",
+    "port":3306,
+    "password":"12345"
+    },
+    "server":{
+    "port":3000
+},
+"bcrypt":{
+    "salat":"cw1641564156413w89ecqgrads4f56486dfer"
+}
+}
